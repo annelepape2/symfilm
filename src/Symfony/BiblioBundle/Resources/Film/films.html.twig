@@ -1,0 +1,11 @@
+{# src\Devschool\BiblioBundle\Resources\views\Livre\list.html.twig #}
+<h1>{{ titre }}</h1>
+
+<ul class="liste">
+    {% for film in films %}
+        <li>
+            <h2>{{ film.titre }}</h2>
+            <span>{{ film.auteur }}</span>
+        </li>
+    {% endfor %}
+</ul>
