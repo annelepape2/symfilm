@@ -1,0 +1,4 @@
+services:
+#    symfony_admin.example:
+#        class: symfony\AdminBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
